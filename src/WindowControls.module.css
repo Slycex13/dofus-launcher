@@ -1,0 +1,49 @@
+.windowControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(
+    29,
+    32,
+    39,
+    0.2
+  ); /* Couleur de fond avec transparence */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(
+    50px
+  ); /* Pour compatibilité avec certains navigateurs */
+  color: white;
+  height: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+.btnClose {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  -webkit-app-region: no-drag;
+  background: none;
+  font-size: 25px;
+  color: white;
+}
+
+.btnMinimize {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  -webkit-app-region: no-drag;
+  background: none;
+  font-size: 25px;
+  color: white;
+  vertical-align: 5px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0px;
+  line-height: 50px;
+}
